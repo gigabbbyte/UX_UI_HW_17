@@ -1,0 +1,154 @@
+/*media queries
+@media screen {
+    
+}
+*/
+
+/*header and title typography*/
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+/*body typography*/
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+/*start style*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fce851;
+    color: #38312d;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/images/backgroundimg.png");
+    background-size: cover;
+    background-position: 100%;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 20px;
+}
+
+.container {
+    padding: 10px 50px 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    font-family: 'Instrument Serif', serif;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 24pt;
+    font-weight: bold;
+    position: relative;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.headerText {
+    margin-top: 0 auto;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.headerText h1 {
+    font-size: 100px;
+    margin-top: 20px;
+    font-family: 'Caprasimo', cursive;
+    font-weight: 400;
+}
+
+.headerText h3 {
+    font-size: 30pt;
+    margin-top: 20px;
+    font-family: 'Instrument Serif', serif;
+}
+
+.headerText h1 span {
+    color: #436ec3;
+    font-family: 'Instrument Serif', serif;
+}
+
+h1 span:hover {
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+.headerText p {
+    font-weight: lighter;
+    font-size: 24pt;
+    font-family: 'Instrument Serif', serif;
+}
+
+.headerText p span {
+    color: #436ec3;
+    font-family: 'Instrument Serif', serif;
+    text-decoration: none;
+}
+
+.headerText p span a {
+    color: #436ec3;
+    font-family: 'Instrument Serif', serif;
+    text-decoration: none;
+}
+
+.headerText p span a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #38312d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    z-index: 9999;
+}
+
+footer ul li {
+    display: inline-block;
+    font-family: 'Instrument Serif', serif;
+    font-size: 24pt;
+    color: #fff;
+    list-style: none;
+    margin: 20px 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 60%;
+}
