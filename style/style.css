@@ -1,8 +1,5 @@
-/*media queries
-@media screen {
-    
-}
-*/
+/*media queries*/
+/*@media screen and (min-width: 320px) and (max-width: 426px)*/
 
 /*header and title typography*/
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
@@ -19,7 +16,7 @@
 }
 
 body {
-    background: #fce851;
+    background: rgba(252, 232, 81,0.5);
     color: #38312d;
 }
 
@@ -29,6 +26,7 @@ body {
     background-image: url("/images/backgroundimg.png");
     background-size: cover;
     background-position: 100%;
+    display: flex;
 }
 
 .logo {
@@ -58,7 +56,6 @@ nav ul li a {
     color: inherit;
     text-decoration: none;
     font-size: 24pt;
-    font-weight: bold;
     position: relative;
 }
 
@@ -98,7 +95,7 @@ h1 span:hover {
 
 .headerText p {
     font-weight: lighter;
-    font-size: 24pt;
+    font-size: 30pt;
     font-family: 'Instrument Serif', serif;
 }
 
@@ -116,6 +113,48 @@ h1 span:hover {
 
 .headerText p span a:hover {
     text-decoration: underline;
+}
+
+.headerText h4 {
+    font-size: 24pt;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+}
+
+.buttons {
+   margin-top: 100px;
+}
+
+.buttons button {
+    font-family: 'Instrument Serif', serif;
+    font-size: 24pt;
+    color: #fff;
+    padding:10px 20px 10px 20px;
+    border-radius: 300px;
+    background-color: #436ec3;
+    margin-right: 20px;
+    border-color: #436ec3;
+}
+
+.buttons button {
+    font-family: 'Instrument Serif', serif;
+    font-size: 24pt;
+    color: #fff;
+    padding:10px 30px 10px 30px;
+    border: none;
+    background-color: #436ec3;
+    margin-right: 20px;
+}
+
+.buttons button:hover {
+    font-family: 'Instrument Serif', serif;
+    font-size: 24pt;
+    color: #fff;
+    padding:10px 30px 10px 30px;
+    border: none;
+    background-color:#38312d;
+    margin-right: 20px;
+
 }
 
 footer {
@@ -137,7 +176,7 @@ footer ul li {
     font-size: 24pt;
     color: #fff;
     list-style: none;
-    margin: 20px 20px;
+    margin: 10px 20px;
 }
 
 footer ul li a {
