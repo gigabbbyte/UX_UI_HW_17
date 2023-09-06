@@ -147,6 +147,7 @@ h1 span:hover {
 
 .headerText p span a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .headerText h4 {
@@ -181,7 +182,7 @@ h1 span:hover {
 }
 
 .buttons button:hover {
-    cursor: pointer
+    cursor: pointer;
     font-family: 'Instrument Serif', serif;
     font-size: 24pt;
     color: #fff;
