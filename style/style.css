@@ -200,18 +200,9 @@ h1 span:hover {
     font-family: 'Instrument Serif', serif;
     font-size: 24pt;
     color: #fff;
-    padding:10px 20px 10px 20px;
-    border-radius: 300px;
-    background-color: #436ec3;
-    margin-right: 20px;
-}
-
-.buttons button {
-    font-family: 'Instrument Serif', serif;
-    font-size: 24pt;
-    color: #fff;
     padding:10px 30px 10px 30px;
     border: none;
+    border-radius: 300px;
     background-color: #436ec3;
     margin-right: 20px;
     transition: all 0.2s ease-in;
@@ -283,7 +274,7 @@ h1 span:hover {
     color: white;
 }
 
-h3:hover {
+#skills h3:hover {
     animation: wiggle 1000ms;
 }
 
@@ -293,6 +284,65 @@ h3:hover {
     20% { transform: rotate(2deg); }
     60% { transform: rotate(1deg); }
     100% { transform: rotate(0deg); }
+}
+
+/* my work style */
+#work {
+    height: 100%;
+}
+
+#work h1 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 3rem;
+    padding: 3%;
+    text-align: center;
+}
+
+/* #work h3 {
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    padding: 3%;
+} */
+
+.workGrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 'gridItem1 gridItem2 gridItem3';
+    text-align: center;
+}
+
+.gridItem1 {
+    grid-area: gridItem1;
+}
+.gridItem2 {
+    grid-area: gridItem2;
+}
+.gridItem {
+    grid-area: gridItem3;
+}
+
+.workGrid button {
+    font-family: 'Instrument Serif', serif;
+    font-size: 24pt;
+    color: #fff;
+    padding:10px 30px 10px 30px;
+    border: none;
+    border-radius: 300px;
+    background-color: #436ec3;
+    margin-right: 20px;
+    transition: all 0.2s ease-in;
+}
+
+.workGrid button:hover {
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 24pt;
+    color: #fff;
+    padding:10px 30px 10px 30px;
+    border: none;
+    background-color:#38312d;
+    margin-right: 20px;
 }
 
 /* footer style */
