@@ -252,6 +252,7 @@ h1 span:hover {
     color: #fff;
     font-family: 'Instrument Serif', serif;
     font-size: 1.5rem;
+    /* text-align: justify; maybe? */
 }
 
 .flexSkills /* good pun lol */ {
@@ -269,6 +270,7 @@ h1 span:hover {
     padding-right: 4rem;
     width: 33%;
 }
+
 
 .tools {
     padding-bottom: 4rem;
@@ -294,7 +296,7 @@ h1 span:hover {
 
 /* my work style */
 #work {
-    height: 100%;
+    height: 100vh;
 }
 
 #work h1 {
@@ -312,20 +314,75 @@ h1 span:hover {
 
 .workGrid {
     display: grid;
+    /* height: 30%; */
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'gridItem1 gridItem2 gridItem3';
     text-align: center;
 }
-
 .gridItem1 {
     grid-area: gridItem1;
+    /* border-style: solid;
+    border-color: #38312d;
+    border-width: 2px;
+    border-radius: 20px; */
+    padding: 10%;
+    margin: 0 auto;
+    background-image: url("/images/projects-01.png");
 }
+.gridItem1 h4 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 3rem;
+}
+.gridItem1 p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Instrument Serif', serif;
+    padding: 5%;
+}
+
+
+
 .gridItem2 {
     grid-area: gridItem2;
+    /* border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 20px; */
+    padding: 10%;
+    margin: 0 auto;
+    background-image: url("/images/projects-02.png");
 }
-.gridItem {
+.gridItem2 h4 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 3rem;
+}
+.gridItem2 p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Instrument Serif', serif;
+    padding: 5%;
+}
+
+
+.gridItem3 {
     grid-area: gridItem3;
+    /* border-style: solid;
+    border-width: 2px;
+    border-radius: 20px; */
+    padding: 10%;
+    margin: 0 auto;
+    background-image: url("/images/projects-03.png");
+}
+.gridItem3 h4 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 3rem;
+}
+.gridItem3 p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Instrument Serif', serif;
+    padding: 5%;
 }
 
 .workGrid button {
@@ -336,7 +393,6 @@ h1 span:hover {
     border: none;
     border-radius: 300px;
     background-color: #436ec3;
-    margin-right: 20px;
     transition: all 0.2s ease-in;
 }
 
@@ -348,7 +404,6 @@ h1 span:hover {
     padding:10px 30px 10px 30px;
     border: none;
     background-color:#38312d;
-    margin-right: 20px;
 }
 
 /* footer style */
