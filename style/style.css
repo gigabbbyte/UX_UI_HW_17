@@ -40,10 +40,9 @@ body {
     display: flex;
 }
 
-.logo {
-    width: 100px;
-    float: right;
-}
+/* .logo {
+    right: 0;
+} */
 
 #header img:hover {
     animation: wiggle 1000ms;
