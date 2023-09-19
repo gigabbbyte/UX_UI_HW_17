@@ -1,3 +1,4 @@
+// mobile nav menu
 const mobileNav = document.querySelector(".mobileNav");
 const navMenu = document.querySelector(".navMenu");
 
@@ -10,3 +11,9 @@ document.querySelectorAll(".navLink").forEach(n =>n.addEventListener("click", ()
     mobileNav.classList.remove("active");
     navMenu.classList.remove("active");
 }))
+
+function fade () {
+    $(".preloader").fadeOut("slow");
+}
+
+setTimeout(fade, 3000)
