@@ -555,10 +555,15 @@ h1 span:hover {
     font-size: 1.5rem;
 }
 
+.contactForm button {
+    margin-top: 2%;
+    padding: 10px;
+}
+
 .contactInfo {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
     color: #fff;
     font-size: 1.5rem;
     font-family: 'Instrument Serif', serif;
