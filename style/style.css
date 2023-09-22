@@ -403,7 +403,7 @@ h1 span:hover {
     /* border-style: solid;
     border-width: 2px;
     border-color: #436ec3; */
-    border-radius: 50px;
+    border-radius: 1rem;
     background-color: rgba(255,255,255,0.7);
     padding: 10%;
     margin: 3%;
@@ -430,7 +430,7 @@ h1 span:hover {
     /* border-style: solid;
     border-width: 2px;
     border-color: #436ec3; */
-    border-radius: 50px;
+    border-radius: 1rem;
     background-color: rgba(255,255,255,0.7);
     padding: 10%;
     margin: 3%;
@@ -456,7 +456,7 @@ h1 span:hover {
     /* border-style: solid;
     border-width: 2px;
     border-color: #436ec3; */
-    border-radius: 50px;
+    border-radius: 1rem;
     background-color: rgba(255,255,255,0.7);
     padding: 10%;
     margin: 3%;
